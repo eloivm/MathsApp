@@ -1,0 +1,44 @@
+body,
+html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    resize: none
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-custom {
+    background-color: #007bff;
+}
+
+.add-course-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.dropdown-menu {
+    background-color: #F0F8FF;
+}
+
+.dropdown-item {
+    color: #007bff;
+}
+
+.dropdown-item:hover {
+    color: #F0F8FF;
+    background-color: #007bff;
+}

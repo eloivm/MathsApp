@@ -1,0 +1,36 @@
+body {
+    background: #d5e9ff;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    padding-bottom: 50px;
+}
+.back-link {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card {
+    border-radius: 15px;
+    padding: 0 15px;
+    background-color: #a8d5ff;
+}
+.btn-primary {
+    border-radius: 20px;
+}
+.btn-danger {
+    border-radius: 20px;
+}
+.title-text {
+    font-family: 'Amatic SC', cursive;
+    font-size: 4rem;
+    color: #007BFF;
+}
+.register-link {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
